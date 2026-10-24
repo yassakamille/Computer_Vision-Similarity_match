@@ -74,4 +74,5 @@ flowchart TD
 The provided code estimates a homography but does not apply it to create a warped image using `cv2.warpPerspective()`. The diagram therefore focuses on the implemented matching, verification, and visualization workflow.
 
 The similarity score is a heuristic based on the number of ratio-filtered matches relative to the smaller keypoint count; it is not a universal measure of image similarity.
-[![Architecture diagram](https://gitdiagram.com/diagram-badge.svg)](https://gitdiagram.com/yassakamille/computer_vision-similarity_match?utm_source=readme&utm_medium=badge)
+
+
