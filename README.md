@@ -69,10 +69,5 @@ flowchart TD
 - **Match Visualization:** Displays corresponding keypoints between images.
 - **Similarity Classification:** Calculates a similarity score and compares it against a predefined threshold.
 
-### Implementation Note
-
-The provided code estimates a homography but does not apply it to create a warped image using `cv2.warpPerspective()`. The diagram therefore focuses on the implemented matching, verification, and visualization workflow.
-
-The similarity score is a heuristic based on the number of ratio-filtered matches relative to the smaller keypoint count; it is not a universal measure of image similarity.
 
 
